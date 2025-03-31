@@ -2,6 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label"          :  "coq: compile",
+            "type"           :  "shell",
+            "command"        :  "coqc",
+            "args"           : ["coq/hello.v"],
+            // "options"        : {"cwd": "${workspaceFolder}/fortex"},
+            "problemMatcher" : [],
+            "presentation"   : {"showReuseMessage": false, "focus": true, "reveal": "silent"},
+            "group"          : {"kind": "build", "isDefault": true}
+        },
+        {
             "label"          :  "make: all",
             "type"           :  "shell",
             "command"        :  "make all",

@@ -1,4 +1,5 @@
 T = $(wildcard src/*.t)
+V = $(wildcard coq/*.v)
 
 .PHONY: all
 all: src/empty.rs
