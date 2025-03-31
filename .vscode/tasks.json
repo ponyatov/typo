@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label"          :  "make: all",
+            "type"           :  "shell",
+            "command"        :  "make all",
+            // "args"           : ["build", "--target", "thumbv7m-none-eabi"],
+            // "options"        : {"cwd": "${workspaceFolder}/fortex"},
+            "problemMatcher" : [],
+            "presentation"   : {"showReuseMessage": false, "focus": true, "reveal": "silent"},
+            "group"          : {"kind": "build", "isDefault": true}
+        },
+        {
+            "label"          :  "make: format",
+            "type"           :  "shell",
+            "command"        :  "make format",
+            // "args"           : ["build", "--target", "thumbv7m-none-eabi"],
+            // "options"        : {"cwd": "${workspaceFolder}/fortex"},
+            "problemMatcher" : [],
+            "presentation"   : {"showReuseMessage": false, "focus": true, "reveal": "silent"},
+            "group"          : {"kind": "build", "isDefault": true}
+        },
+    ]
+}
