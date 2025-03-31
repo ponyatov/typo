@@ -1,0 +1,9 @@
+[package]
+name        = "typo"
+version     = "0.0.1"
+edition     = "2021"
+description = "algebraic types de/serializer"
+authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+license     = "MIT"
+
+[dependencies]
